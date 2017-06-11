@@ -142,6 +142,7 @@ public class Dodawanie {
         }
         if ((aa.contains(",") && count1 == 1) || (bb.contains(",") && count2 == 1))
         {
+            //
             a = a.replace(",", "");
             b = b.replace(",", "");
             long aLong = Long.parseLong(a);
